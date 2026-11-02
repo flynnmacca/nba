@@ -1,0 +1,222 @@
+{
+  "hunt_84": {
+    "games": 84,
+    "pts": 1.71,
+    "fga": 2.45,
+    "dreb": 0.69,
+    "oreb": 0.14,
+    "ast": 0.48,
+    "tov": -0.16,
+    "stl": 0.16,
+    "fg_pct": -0.007,
+    "ast_rate": null,
+    "three_pct": -0.013,
+    "ppp": -0.01,
+    "winner": 0.821,
+    "brier": 0.15,
+    "sim_margin_sd": 14.43,
+    "actual_margin_sd": 14.96,
+    "total_bias": 3.41,
+    "roles": [
+      {
+        "role": "under 12",
+        "n": 198,
+        "min_bias": 6.08,
+        "pts_bias": 3.09
+      },
+      {
+        "role": "12\u201324",
+        "n": 589,
+        "min_bias": 0.94,
+        "pts_bias": 0.89
+      },
+      {
+        "role": "24\u201332",
+        "n": 543,
+        "min_bias": -1.37,
+        "pts_bias": -0.02
+      },
+      {
+        "role": "32 and up",
+        "n": 375,
+        "min_bias": -3.02,
+        "pts_bias": -2.34
+      }
+    ],
+    "points_split": {
+      "pace_points": 2.75,
+      "efficiency_points": -1.04,
+      "two_from_extra_fga": 2.42,
+      "two_from_fg_pct": -1.1,
+      "extra_made_threes": -0.25,
+      "extra_made_free_throws": 0.77,
+      "points_outside_the_box": 0.0,
+      "sides": 168
+    }
+  },
+  "hunt_stod": {
+    "games": 76,
+    "pts": 3.61,
+    "fga": 1.06,
+    "dreb": -0.07,
+    "oreb": -0.5,
+    "ast": 1.05,
+    "tov": -1.44,
+    "stl": 0.15,
+    "fg_pct": 0.012,
+    "ast_rate": null,
+    "three_pct": 0.008,
+    "ppp": 0.028,
+    "winner": 0.526,
+    "brier": 0.247,
+    "sim_margin_sd": 16.48,
+    "actual_margin_sd": 16.33,
+    "total_bias": 7.21,
+    "roles": [
+      {
+        "role": "under 12",
+        "n": 213,
+        "min_bias": 6.85,
+        "pts_bias": 3.57
+      },
+      {
+        "role": "12\u201324",
+        "n": 574,
+        "min_bias": -1.21,
+        "pts_bias": 0.49
+      },
+      {
+        "role": "24\u201332",
+        "n": 453,
+        "min_bias": -2.87,
+        "pts_bias": -1.22
+      },
+      {
+        "role": "32 and up",
+        "n": 348,
+        "min_bias": -4.13,
+        "pts_bias": -2.42
+      }
+    ],
+    "points_split": {
+      "pace_points": 0.68,
+      "efficiency_points": 2.93,
+      "two_from_extra_fga": 1.15,
+      "two_from_fg_pct": 2.25,
+      "extra_made_threes": -0.2,
+      "extra_made_free_throws": 0.59,
+      "points_outside_the_box": 0.01,
+      "sides": 152
+    }
+  },
+  "adapt_84": {
+    "games": 84,
+    "pts": 1.46,
+    "fga": 2.57,
+    "dreb": 1.51,
+    "oreb": 0.14,
+    "ast": -0.57,
+    "tov": -0.21,
+    "stl": 0.07,
+    "fg_pct": -0.009,
+    "ast_rate": null,
+    "three_pct": -0.013,
+    "ppp": -0.013,
+    "winner": 0.798,
+    "brier": 0.156,
+    "sim_margin_sd": 14.92,
+    "actual_margin_sd": 14.96,
+    "total_bias": 2.92,
+    "roles": [
+      {
+        "role": "under 12",
+        "n": 200,
+        "min_bias": 5.99,
+        "pts_bias": 2.81
+      },
+      {
+        "role": "12\u201324",
+        "n": 589,
+        "min_bias": 0.93,
+        "pts_bias": 1.07
+      },
+      {
+        "role": "24\u201332",
+        "n": 543,
+        "min_bias": -1.35,
+        "pts_bias": -0.1
+      },
+      {
+        "role": "32 and up",
+        "n": 375,
+        "min_bias": -3.04,
+        "pts_bias": -2.51
+      }
+    ],
+    "points_split": {
+      "pace_points": 2.77,
+      "efficiency_points": -1.31,
+      "two_from_extra_fga": 2.54,
+      "two_from_fg_pct": -1.46,
+      "extra_made_threes": -0.14,
+      "extra_made_free_throws": 0.67,
+      "points_outside_the_box": -0.01,
+      "sides": 168
+    }
+  },
+  "adapt_stod": {
+    "games": 76,
+    "pts": 3.35,
+    "fga": 1.14,
+    "dreb": 0.66,
+    "oreb": -0.48,
+    "ast": 0.76,
+    "tov": -1.55,
+    "stl": -0.01,
+    "fg_pct": 0.009,
+    "ast_rate": null,
+    "three_pct": 0.008,
+    "ppp": 0.026,
+    "winner": 0.579,
+    "brier": 0.236,
+    "sim_margin_sd": 16.81,
+    "actual_margin_sd": 16.33,
+    "total_bias": 6.69,
+    "roles": [
+      {
+        "role": "under 12",
+        "n": 211,
+        "min_bias": 6.79,
+        "pts_bias": 3.51
+      },
+      {
+        "role": "12\u201324",
+        "n": 574,
+        "min_bias": -1.21,
+        "pts_bias": 0.33
+      },
+      {
+        "role": "24\u201332",
+        "n": 453,
+        "min_bias": -2.9,
+        "pts_bias": -1.15
+      },
+      {
+        "role": "32 and up",
+        "n": 348,
+        "min_bias": -4.08,
+        "pts_bias": -2.25
+      }
+    ],
+    "points_split": {
+      "pace_points": 0.61,
+      "efficiency_points": 2.73,
+      "two_from_extra_fga": 1.21,
+      "two_from_fg_pct": 1.8,
+      "extra_made_threes": -0.1,
+      "extra_made_free_throws": 0.65,
+      "points_outside_the_box": 0.0,
+      "sides": 152
+    }
+  }
+}

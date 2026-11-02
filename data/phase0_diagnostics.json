@@ -1,0 +1,99 @@
+{
+  "miss_identity_2025_26": {
+    "file": "season_eval_2025_26_logic_fix.json",
+    "misses": 47.67,
+    "oreb": 11.24,
+    "dreb": 38.94,
+    "miss_minus_oreb_minus_dreb": -2.51,
+    "note": "Near 0 means every non-OREB miss is a player DREB (no team-reb sink)."
+  },
+  "miss_identity_2026_27": {
+    "file": "season_eval_2026_27_logic_fix.json",
+    "misses": 44.71,
+    "oreb": 10.97,
+    "dreb": 36.83,
+    "miss_minus_oreb_minus_dreb": -3.09,
+    "note": "Near 0 means every non-OREB miss is a player DREB (no team-reb sink)."
+  },
+  "stod_rosters": [
+    {
+      "date": "2026-10-22",
+      "game": "cle@phi",
+      "side": "home",
+      "team": "phi",
+      "n_available": 9,
+      "sum_minutes_mean": 240.0,
+      "n_sample0": 0,
+      "sample0": []
+    },
+    {
+      "date": "2026-10-22",
+      "game": "cle@phi",
+      "side": "away",
+      "team": "cle",
+      "n_available": 10,
+      "sum_minutes_mean": 240.0,
+      "n_sample0": 1,
+      "sample0": [
+        {
+          "name": "Mario Hezonja",
+          "minutes_mean": 9.1,
+          "source": "No games yet"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "game": "den@okc",
+      "side": "home",
+      "team": "okc",
+      "n_available": 13,
+      "sum_minutes_mean": 240.0,
+      "n_sample0": 0,
+      "sample0": []
+    },
+    {
+      "date": "2026-10-22",
+      "game": "den@okc",
+      "side": "away",
+      "team": "den",
+      "n_available": 13,
+      "sum_minutes_mean": 240.0,
+      "n_sample0": 3,
+      "sample0": [
+        {
+          "name": "Alpha Diallo",
+          "minutes_mean": 10.3,
+          "source": "No games yet"
+        },
+        {
+          "name": "Trevon Brazile",
+          "minutes_mean": 1.2,
+          "source": "No games yet"
+        },
+        {
+          "name": "Bryce Hopkins",
+          "minutes_mean": 0.6,
+          "source": "No games yet"
+        }
+      ]
+    }
+  ],
+  "move_inputs": {
+    "game": "cle@phi",
+    "home_night_mean": 0.9844,
+    "away_night_mean": 1.0105,
+    "home_residual": 1.059853470007648,
+    "away_residual": 1.0545531180300423,
+    "home_context_mult": 1.0043804020178997,
+    "away_context_mult": 1.0009405727673737,
+    "home_team_games": 1.0,
+    "away_team_games": 0.0,
+    "note": "Baseline inputs before / after post-eval patches."
+  },
+  "stod_summary": {
+    "nights": 4,
+    "mean_sum_minutes": 240.0,
+    "nights_over_250_or_sample0": 2
+  }
+}

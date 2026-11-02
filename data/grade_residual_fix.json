@@ -1,0 +1,2098 @@
+{
+  "n_sims": 160,
+  "seed": 7,
+  "summary": {
+    "games": 84,
+    "spread_bias": 1.19,
+    "spread_mae": 10.4,
+    "total_bias": 6.51,
+    "total_mae": 16.89,
+    "mean_home_win_p": 0.569,
+    "actual_home_win_rate": 0.583,
+    "brier": 0.176,
+    "winner_hit": 0.726,
+    "mean_margin_sd": 18.16,
+    "actual_margin_sd": 14.96,
+    "sim_margin_sd": 11.91,
+    "close_games": 17,
+    "close_winner_hit": 0.529,
+    "blowout_games": 29,
+    "blowout_spread_bias": -2.28,
+    "home_points_bias": 3.85,
+    "away_points_bias": 2.66,
+    "calibration": [
+      {
+        "bin": "under 35%",
+        "games": 17,
+        "predicted": 0.247,
+        "actual": 0.118
+      },
+      {
+        "bin": "35\u201345%",
+        "games": 8,
+        "predicted": 0.409,
+        "actual": 0.625
+      },
+      {
+        "bin": "45\u201355%",
+        "games": 13,
+        "predicted": 0.5,
+        "actual": 0.385
+      },
+      {
+        "bin": "55\u201365%",
+        "games": 10,
+        "predicted": 0.602,
+        "actual": 0.5
+      },
+      {
+        "bin": "65% and up",
+        "games": 36,
+        "predicted": 0.772,
+        "actual": 0.889
+      }
+    ]
+  },
+  "points": {
+    "pace_points": 9.15,
+    "efficiency_points": -5.9,
+    "two_from_extra_fga": 6.68,
+    "two_from_fg_pct": -4.34,
+    "extra_made_threes": 0.49,
+    "extra_made_free_throws": 0.86,
+    "points_outside_the_box": -0.0,
+    "sides": 168
+  },
+  "stats": [
+    {
+      "stat": "pts",
+      "sim": 120.34,
+      "actual": 117.08,
+      "bias": 3.25,
+      "mae": 9.92,
+      "n": 168
+    },
+    {
+      "stat": "poss",
+      "sim": 111.32,
+      "actual": 103.25,
+      "bias": 8.06,
+      "mae": 8.53,
+      "n": 168
+    },
+    {
+      "stat": "fga",
+      "sim": 96.6,
+      "actual": 89.68,
+      "bias": 6.91,
+      "mae": 8.22,
+      "n": 168
+    },
+    {
+      "stat": "fgm",
+      "sim": 43.62,
+      "actual": 42.66,
+      "bias": 0.96,
+      "mae": 4.01,
+      "n": 168
+    },
+    {
+      "stat": "tpa",
+      "sim": 40.95,
+      "actual": 37.18,
+      "bias": 3.78,
+      "mae": 5.89,
+      "n": 168
+    },
+    {
+      "stat": "tpm",
+      "sim": 14.11,
+      "actual": 13.62,
+      "bias": 0.49,
+      "mae": 2.74,
+      "n": 168
+    },
+    {
+      "stat": "fta",
+      "sim": 24.14,
+      "actual": 23.62,
+      "bias": 0.52,
+      "mae": 6.15,
+      "n": 168
+    },
+    {
+      "stat": "ftm",
+      "sim": 18.99,
+      "actual": 18.14,
+      "bias": 0.86,
+      "mae": 5.04,
+      "n": 168
+    },
+    {
+      "stat": "oreb",
+      "sim": 11.09,
+      "actual": 11.36,
+      "bias": -0.28,
+      "mae": 3.27,
+      "n": 168
+    },
+    {
+      "stat": "dreb",
+      "sim": 39.04,
+      "actual": 32.48,
+      "bias": 6.56,
+      "mae": 6.96,
+      "n": 168
+    },
+    {
+      "stat": "reb",
+      "sim": 50.13,
+      "actual": 43.85,
+      "bias": 6.28,
+      "mae": 7.58,
+      "n": 168
+    },
+    {
+      "stat": "ast",
+      "sim": 27.14,
+      "actual": 27.42,
+      "bias": -0.28,
+      "mae": 4.01,
+      "n": 168
+    },
+    {
+      "stat": "tov",
+      "sim": 15.19,
+      "actual": 14.54,
+      "bias": 0.65,
+      "mae": 3.19,
+      "n": 168
+    },
+    {
+      "stat": "stl",
+      "sim": 8.45,
+      "actual": 8.42,
+      "bias": 0.03,
+      "mae": 2.58,
+      "n": 168
+    },
+    {
+      "stat": "blk",
+      "sim": 4.81,
+      "actual": 4.72,
+      "bias": 0.09,
+      "mae": 1.87,
+      "n": 168
+    },
+    {
+      "stat": "pf",
+      "sim": 22.63,
+      "actual": 19.81,
+      "bias": 2.82,
+      "mae": 4.52,
+      "n": 168
+    }
+  ],
+  "rates": [
+    {
+      "stat": "fg_pct",
+      "sim": 0.451,
+      "actual": 0.476,
+      "bias": -0.025,
+      "mae": 0.041,
+      "n": 168
+    },
+    {
+      "stat": "three_pct",
+      "sim": 0.344,
+      "actual": 0.366,
+      "bias": -0.022,
+      "mae": 0.062,
+      "n": 168
+    },
+    {
+      "stat": "ft_pct",
+      "sim": 0.787,
+      "actual": 0.767,
+      "bias": 0.02,
+      "mae": 0.071,
+      "n": 168
+    },
+    {
+      "stat": "three_share",
+      "sim": 0.425,
+      "actual": 0.415,
+      "bias": 0.01,
+      "mae": 0.051,
+      "n": 168
+    },
+    {
+      "stat": "fta_per_fga",
+      "sim": 0.25,
+      "actual": 0.266,
+      "bias": -0.016,
+      "mae": 0.076,
+      "n": 168
+    },
+    {
+      "stat": "ppp",
+      "sim": 1.081,
+      "actual": 1.134,
+      "bias": -0.053,
+      "mae": 0.088,
+      "n": 168
+    },
+    {
+      "stat": "tov_per_poss",
+      "sim": 0.137,
+      "actual": 0.14,
+      "bias": -0.004,
+      "mae": 0.029,
+      "n": 168
+    },
+    {
+      "stat": "oreb_per_miss",
+      "sim": 0.221,
+      "actual": 0.258,
+      "bias": -0.037,
+      "mae": 0.074,
+      "n": 168
+    },
+    {
+      "stat": "ast_per_fgm",
+      "sim": 0.622,
+      "actual": 0.642,
+      "bias": -0.02,
+      "mae": 0.077,
+      "n": 168
+    }
+  ],
+  "months": [
+    {
+      "month": "2025-10",
+      "games": 12,
+      "total_bias": 3.1,
+      "spread_mae": 12.5,
+      "points_bias": 1.5
+    },
+    {
+      "month": "2025-11",
+      "games": 12,
+      "total_bias": 5.4,
+      "spread_mae": 8.8,
+      "points_bias": 2.7
+    },
+    {
+      "month": "2025-12",
+      "games": 12,
+      "total_bias": 8.8,
+      "spread_mae": 9.9,
+      "points_bias": 4.4
+    },
+    {
+      "month": "2026-01",
+      "games": 12,
+      "total_bias": 21.1,
+      "spread_mae": 11.5,
+      "points_bias": 10.5
+    },
+    {
+      "month": "2026-02",
+      "games": 12,
+      "total_bias": 7.7,
+      "spread_mae": 8.0,
+      "points_bias": 3.9
+    },
+    {
+      "month": "2026-03",
+      "games": 12,
+      "total_bias": 6.0,
+      "spread_mae": 11.5,
+      "points_bias": 3.0
+    },
+    {
+      "month": "2026-04",
+      "games": 12,
+      "total_bias": -6.6,
+      "spread_mae": 10.7,
+      "points_bias": -3.3
+    }
+  ],
+  "teams": [
+    {
+      "team": "ORL",
+      "games": 8,
+      "pts": 10.2,
+      "fga": 9.4,
+      "fta": -2.6,
+      "oreb": -1.3,
+      "ast": 4.3,
+      "tov": 0.4
+    },
+    {
+      "team": "DEN",
+      "games": 8,
+      "pts": 9.0,
+      "fga": 6.7,
+      "fta": 0.9,
+      "oreb": 0.1,
+      "ast": -2.7,
+      "tov": 0.6
+    },
+    {
+      "team": "SAC",
+      "games": 7,
+      "pts": 7.9,
+      "fga": 7.7,
+      "fta": 0.6,
+      "oreb": -0.4,
+      "ast": -0.3,
+      "tov": 1.2
+    },
+    {
+      "team": "MIA",
+      "games": 7,
+      "pts": 7.5,
+      "fga": 9.2,
+      "fta": 0.3,
+      "oreb": 0.1,
+      "ast": 2.6,
+      "tov": 0.6
+    },
+    {
+      "team": "TOR",
+      "games": 6,
+      "pts": 7.4,
+      "fga": 13.2,
+      "fta": 1.3,
+      "oreb": 3.1,
+      "ast": 0.9,
+      "tov": -0.8
+    },
+    {
+      "team": "DAL",
+      "games": 6,
+      "pts": 6.9,
+      "fga": 9.8,
+      "fta": -2.2,
+      "oreb": 0.1,
+      "ast": 0.6,
+      "tov": 2.8
+    },
+    {
+      "team": "ATL",
+      "games": 4,
+      "pts": 5.7,
+      "fga": 8.8,
+      "fta": 4.4,
+      "oreb": 1.7,
+      "ast": 0.2,
+      "tov": -0.1
+    },
+    {
+      "team": "OKC",
+      "games": 7,
+      "pts": 5.5,
+      "fga": 6.4,
+      "fta": 0.0,
+      "oreb": 2.5,
+      "ast": 1.1,
+      "tov": 0.8
+    },
+    {
+      "team": "MIN",
+      "games": 8,
+      "pts": 5.3,
+      "fga": 8.1,
+      "fta": -2.8,
+      "oreb": -2.7,
+      "ast": 3.5,
+      "tov": -1.0
+    },
+    {
+      "team": "WAS",
+      "games": 8,
+      "pts": 5.1,
+      "fga": 4.3,
+      "fta": 3.7,
+      "oreb": -1.0,
+      "ast": -0.2,
+      "tov": 4.2
+    },
+    {
+      "team": "CLE",
+      "games": 4,
+      "pts": 4.6,
+      "fga": 12.6,
+      "fta": 2.1,
+      "oreb": 1.2,
+      "ast": 0.7,
+      "tov": -2.2
+    },
+    {
+      "team": "MIL",
+      "games": 7,
+      "pts": 4.5,
+      "fga": 6.1,
+      "fta": 1.6,
+      "oreb": 1.4,
+      "ast": -2.7,
+      "tov": -0.1
+    },
+    {
+      "team": "SAS",
+      "games": 3,
+      "pts": 4.2,
+      "fga": 7.6,
+      "fta": -2.1,
+      "oreb": -1.4,
+      "ast": 1.1,
+      "tov": 1.3
+    },
+    {
+      "team": "UTA",
+      "games": 9,
+      "pts": 3.7,
+      "fga": 8.6,
+      "fta": -2.4,
+      "oreb": -0.6,
+      "ast": -1.4,
+      "tov": -2.3
+    },
+    {
+      "team": "PHI",
+      "games": 3,
+      "pts": 3.5,
+      "fga": 4.0,
+      "fta": 1.9,
+      "oreb": 0.4,
+      "ast": -3.6,
+      "tov": 2.8
+    },
+    {
+      "team": "MEM",
+      "games": 9,
+      "pts": 3.1,
+      "fga": 7.2,
+      "fta": 0.3,
+      "oreb": 0.8,
+      "ast": -1.0,
+      "tov": 3.3
+    },
+    {
+      "team": "IND",
+      "games": 3,
+      "pts": 2.9,
+      "fga": 4.9,
+      "fta": 5.2,
+      "oreb": -0.9,
+      "ast": -6.7,
+      "tov": -1.1
+    },
+    {
+      "team": "CHA",
+      "games": 6,
+      "pts": 2.6,
+      "fga": 1.9,
+      "fta": 6.5,
+      "oreb": -1.9,
+      "ast": -1.2,
+      "tov": 2.5
+    },
+    {
+      "team": "DET",
+      "games": 3,
+      "pts": 2.3,
+      "fga": 4.6,
+      "fta": -1.9,
+      "oreb": -4.8,
+      "ast": -0.5,
+      "tov": 0.6
+    },
+    {
+      "team": "LAL",
+      "games": 5,
+      "pts": 2.0,
+      "fga": 10.2,
+      "fta": -0.6,
+      "oreb": 0.2,
+      "ast": -1.9,
+      "tov": 3.6
+    },
+    {
+      "team": "BKN",
+      "games": 3,
+      "pts": 1.1,
+      "fga": 10.0,
+      "fta": 1.7,
+      "oreb": 3.7,
+      "ast": -2.3,
+      "tov": 4.2
+    },
+    {
+      "team": "LAC",
+      "games": 2,
+      "pts": 0.6,
+      "fga": 5.6,
+      "fta": 0.8,
+      "oreb": -1.4,
+      "ast": 0.4,
+      "tov": 0.5
+    },
+    {
+      "team": "GSW",
+      "games": 4,
+      "pts": 0.6,
+      "fga": 1.7,
+      "fta": 3.6,
+      "oreb": -0.1,
+      "ast": -1.0,
+      "tov": 1.4
+    },
+    {
+      "team": "BOS",
+      "games": 6,
+      "pts": -0.8,
+      "fga": 1.2,
+      "fta": 5.7,
+      "oreb": -1.3,
+      "ast": 0.2,
+      "tov": 0.9
+    },
+    {
+      "team": "POR",
+      "games": 4,
+      "pts": -1.8,
+      "fga": 10.9,
+      "fta": -0.3,
+      "oreb": 1.5,
+      "ast": -0.9,
+      "tov": -1.9
+    },
+    {
+      "team": "CHI",
+      "games": 6,
+      "pts": -2.2,
+      "fga": 4.3,
+      "fta": 0.1,
+      "oreb": -0.9,
+      "ast": 0.1,
+      "tov": -1.0
+    },
+    {
+      "team": "NOP",
+      "games": 8,
+      "pts": -3.3,
+      "fga": 6.2,
+      "fta": 1.7,
+      "oreb": -0.2,
+      "ast": -3.1,
+      "tov": -0.5
+    },
+    {
+      "team": "HOU",
+      "games": 4,
+      "pts": -3.5,
+      "fga": 3.4,
+      "fta": -6.9,
+      "oreb": -4.1,
+      "ast": -0.8,
+      "tov": -3.2
+    },
+    {
+      "team": "NYK",
+      "games": 4,
+      "pts": -5.0,
+      "fga": 4.7,
+      "fta": -1.7,
+      "oreb": -1.0,
+      "ast": 0.4,
+      "tov": 3.1
+    },
+    {
+      "team": "PHX",
+      "games": 6,
+      "pts": -6.7,
+      "fga": 4.8,
+      "fta": -0.8,
+      "oreb": -2.1,
+      "ast": 0.4,
+      "tov": -0.7
+    }
+  ],
+  "players": {
+    "rows": 2555,
+    "matched": 2108,
+    "graded": 1731,
+    "unmatched_actual_minutes": 0.0,
+    "coverage_minutes": 0.396,
+    "coverage_points": 0.689,
+    "coverage_assists": 0.819,
+    "minute_component_mae": 3.04,
+    "rate_component_mae": 4.35,
+    "by_stat": {
+      "min": {
+        "bias": -0.06,
+        "mae": 7.56,
+        "n": 1731
+      },
+      "pts": {
+        "bias": 0.32,
+        "mae": 6.06,
+        "n": 1731
+      },
+      "reb": {
+        "bias": 0.6,
+        "mae": 2.74,
+        "n": 1731
+      },
+      "oreb": {
+        "bias": -0.02,
+        "mae": 1.03,
+        "n": 1731
+      },
+      "ast": {
+        "bias": -0.03,
+        "mae": 1.55,
+        "n": 1731
+      },
+      "fga": {
+        "bias": 0.67,
+        "mae": 4.13,
+        "n": 1731
+      },
+      "fta": {
+        "bias": 0.05,
+        "mae": 1.92,
+        "n": 1731
+      },
+      "ftm": {
+        "bias": 0.08,
+        "mae": 1.53,
+        "n": 1731
+      },
+      "tov": {
+        "bias": 0.14,
+        "mae": 1.07,
+        "n": 1731
+      },
+      "tpm": {
+        "bias": 0.04,
+        "mae": 0.97,
+        "n": 1731
+      },
+      "tpa": {
+        "bias": 0.36,
+        "mae": 1.94,
+        "n": 1731
+      },
+      "stl": {
+        "bias": 0.01,
+        "mae": 0.74,
+        "n": 1731
+      },
+      "blk": {
+        "bias": 0.01,
+        "mae": 0.53,
+        "n": 1731
+      },
+      "pf": {
+        "bias": 0.28,
+        "mae": 1.29,
+        "n": 1731
+      }
+    },
+    "roles": [
+      {
+        "role": "under 12 min",
+        "players": 271,
+        "minutes": {
+          "bias": -13.13,
+          "mae": 15.15,
+          "n": 271
+        },
+        "points": {
+          "bias": -5.91,
+          "mae": 7.35,
+          "n": 271
+        },
+        "assists": {
+          "bias": -1.14,
+          "mae": 1.46,
+          "n": 271
+        },
+        "rebounds": {
+          "bias": -4.03,
+          "mae": 4.7,
+          "n": 271
+        },
+        "fga": {
+          "bias": -3.95,
+          "mae": 4.92,
+          "n": 271
+        }
+      },
+      {
+        "role": "12\u201324 min",
+        "players": 568,
+        "minutes": {
+          "bias": 0.37,
+          "mae": 6.45,
+          "n": 568
+        },
+        "points": {
+          "bias": 0.49,
+          "mae": 4.63,
+          "n": 568
+        },
+        "assists": {
+          "bias": -0.04,
+          "mae": 1.32,
+          "n": 568
+        },
+        "rebounds": {
+          "bias": 0.78,
+          "mae": 1.89,
+          "n": 568
+        },
+        "fga": {
+          "bias": 0.58,
+          "mae": 3.34,
+          "n": 568
+        }
+      },
+      {
+        "role": "24\u201332 min",
+        "players": 484,
+        "minutes": {
+          "bias": 2.32,
+          "mae": 5.62,
+          "n": 484
+        },
+        "points": {
+          "bias": 1.64,
+          "mae": 5.77,
+          "n": 484
+        },
+        "assists": {
+          "bias": 0.2,
+          "mae": 1.56,
+          "n": 484
+        },
+        "rebounds": {
+          "bias": 1.4,
+          "mae": 2.35,
+          "n": 484
+        },
+        "fga": {
+          "bias": 1.49,
+          "mae": 3.73,
+          "n": 484
+        }
+      },
+      {
+        "role": "32 min and up",
+        "players": 408,
+        "minutes": {
+          "bias": 5.19,
+          "mae": 6.38,
+          "n": 408
+        },
+        "points": {
+          "bias": 2.64,
+          "mae": 7.54,
+          "n": 408
+        },
+        "assists": {
+          "bias": 0.45,
+          "mae": 1.92,
+          "n": 408
+        },
+        "rebounds": {
+          "bias": 2.5,
+          "mae": 3.1,
+          "n": 408
+        },
+        "fga": {
+          "bias": 2.88,
+          "mae": 5.18,
+          "n": 408
+        }
+      }
+    ],
+    "where_points": [
+      {
+        "group": "24 min and up",
+        "players": 1077,
+        "points_per_side": 7.36,
+        "minute_bias": 1.4,
+        "point_mae": 6.38
+      },
+      {
+        "group": "12\u201324 min",
+        "players": 449,
+        "points_per_side": 3.59,
+        "minute_bias": 2.46,
+        "point_mae": 4.45
+      },
+      {
+        "group": "under 12 min",
+        "players": 441,
+        "points_per_side": 0.63,
+        "minute_bias": 0.46,
+        "point_mae": 0.78
+      },
+      {
+        "group": "on the sheet, did not play",
+        "players": 5,
+        "points_per_side": 0.12,
+        "minute_bias": 8.76,
+        "point_mae": 4.12
+      },
+      {
+        "group": "played, off the sheet",
+        "players": 136,
+        "points_per_side": -8.44,
+        "minute_bias": -21.62,
+        "point_mae": 10.3
+      }
+    ],
+    "worst": [
+      {
+        "date": "2026-02-09",
+        "game": "SAC at NOP",
+        "team": "SAC",
+        "name": "DeMar DeRozan",
+        "sim_min": 46.2,
+        "actual_min": 20.0,
+        "sim_pts": 46.9,
+        "actual_pts": 8.0,
+        "sim_ast": 5.2,
+        "actual_ast": 1.0,
+        "sim_reb": 5.0,
+        "actual_reb": 1.0,
+        "sim_fga": 34.7,
+        "actual_fga": 11.0,
+        "minute_component": 26.6,
+        "rate_component": -12.3
+      },
+      {
+        "date": "2025-12-27",
+        "game": "NYK at ATL",
+        "team": "NYK",
+        "name": "Karl-Anthony Towns",
+        "sim_min": 0.8,
+        "actual_min": 30.0,
+        "sim_pts": 0.6,
+        "actual_pts": 36.0,
+        "sim_ast": 0.1,
+        "actual_ast": 1.0,
+        "sim_reb": 0.4,
+        "actual_reb": 15.0,
+        "sim_fga": 0.5,
+        "actual_fga": 15.0,
+        "minute_component": -0.0,
+        "rate_component": 35.4
+      },
+      {
+        "date": "2025-11-05",
+        "game": "MIA at DEN",
+        "team": "DEN",
+        "name": "Nikola Jokic",
+        "sim_min": 1.1,
+        "actual_min": 37.0,
+        "sim_pts": 1.0,
+        "actual_pts": 33.0,
+        "sim_ast": 0.4,
+        "actual_ast": 16.0,
+        "sim_reb": 0.4,
+        "actual_reb": 15.0,
+        "sim_fga": 0.7,
+        "actual_fga": 18.0,
+        "minute_component": -34.3,
+        "rate_component": -2.3
+      },
+      {
+        "date": "2025-12-18",
+        "game": "ORL at DEN",
+        "team": "ORL",
+        "name": "Desmond Bane",
+        "sim_min": 42.8,
+        "actual_min": 36.0,
+        "sim_pts": 37.0,
+        "actual_pts": 6.0,
+        "sim_ast": 5.2,
+        "actual_ast": 8.0,
+        "sim_reb": 6.6,
+        "actual_reb": 2.0,
+        "sim_fga": 26.6,
+        "actual_fga": 11.0,
+        "minute_component": 5.9,
+        "rate_component": -25.1
+      },
+      {
+        "date": "2026-03-12",
+        "game": "MIL at MIA",
+        "team": "MIL",
+        "name": "Giannis Antetokounmpo",
+        "sim_min": 0.1,
+        "actual_min": 29.0,
+        "sim_pts": 0.1,
+        "actual_pts": 31.0,
+        "sim_ast": 0.0,
+        "actual_ast": 3.0,
+        "sim_reb": 0.0,
+        "actual_reb": 6.0,
+        "sim_fga": 0.1,
+        "actual_fga": 24.0,
+        "minute_component": -0.0,
+        "rate_component": 30.9
+      },
+      {
+        "date": "2025-10-24",
+        "game": "MIL at TOR",
+        "team": "MIL",
+        "name": "Giannis Antetokounmpo",
+        "sim_min": 0.2,
+        "actual_min": 38.0,
+        "sim_pts": 0.2,
+        "actual_pts": 31.0,
+        "sim_ast": 0.1,
+        "actual_ast": 7.0,
+        "sim_reb": 0.0,
+        "actual_reb": 20.0,
+        "sim_fga": 0.2,
+        "actual_fga": 14.0,
+        "minute_component": -0.0,
+        "rate_component": 30.8
+      },
+      {
+        "date": "2025-11-12",
+        "game": "DEN at LAC",
+        "team": "DEN",
+        "name": "Nikola Jokic",
+        "sim_min": 29.3,
+        "actual_min": 34.0,
+        "sim_pts": 25.4,
+        "actual_pts": 55.0,
+        "sim_ast": 7.6,
+        "actual_ast": 6.0,
+        "sim_reb": 11.2,
+        "actual_reb": 12.0,
+        "sim_fga": 17.6,
+        "actual_fga": 23.0,
+        "minute_component": -4.1,
+        "rate_component": 25.6
+      },
+      {
+        "date": "2026-04-05",
+        "game": "LAL at DAL",
+        "team": "DAL",
+        "name": "Cooper Flagg",
+        "sim_min": 32.2,
+        "actual_min": 39.0,
+        "sim_pts": 17.9,
+        "actual_pts": 45.0,
+        "sim_ast": 5.3,
+        "actual_ast": 9.0,
+        "sim_reb": 7.7,
+        "actual_reb": 8.0,
+        "sim_fga": 15.6,
+        "actual_fga": 27.0,
+        "minute_component": -3.8,
+        "rate_component": 23.3
+      },
+      {
+        "date": "2026-03-10",
+        "game": "CHI at GSW",
+        "team": "CHI",
+        "name": "Matas Buzelis",
+        "sim_min": 32.4,
+        "actual_min": 45.0,
+        "sim_pts": 15.0,
+        "actual_pts": 41.0,
+        "sim_ast": 2.2,
+        "actual_ast": 2.0,
+        "sim_reb": 6.6,
+        "actual_reb": 6.0,
+        "sim_fga": 11.8,
+        "actual_fga": 28.0,
+        "minute_component": -5.8,
+        "rate_component": 20.2
+      },
+      {
+        "date": "2025-10-26",
+        "game": "IND at MIN",
+        "team": "MIN",
+        "name": "Anthony Edwards",
+        "sim_min": 39.8,
+        "actual_min": 3.0,
+        "sim_pts": 30.9,
+        "actual_pts": 5.0,
+        "sim_ast": 4.5,
+        "actual_ast": 0.0,
+        "sim_reb": 8.1,
+        "actual_reb": 1.0,
+        "sim_fga": 22.6,
+        "actual_fga": 5.0,
+        "minute_component": 28.6,
+        "rate_component": 2.7
+      },
+      {
+        "date": "2026-02-11",
+        "game": "MEM at DEN",
+        "team": "DEN",
+        "name": "Nikola Jokic",
+        "sim_min": 0.2,
+        "actual_min": 34.0,
+        "sim_pts": 0.2,
+        "actual_pts": 26.0,
+        "sim_ast": 0.1,
+        "actual_ast": 11.0,
+        "sim_reb": 0.1,
+        "actual_reb": 15.0,
+        "sim_fga": 0.1,
+        "actual_fga": 17.0,
+        "minute_component": -0.0,
+        "rate_component": 25.8
+      },
+      {
+        "date": "2026-01-06",
+        "game": "LAL at NOP",
+        "team": "NOP",
+        "name": "Trey Murphy III",
+        "sim_min": 33.0,
+        "actual_min": 39.0,
+        "sim_pts": 16.4,
+        "actual_pts": 42.0,
+        "sim_ast": 3.4,
+        "actual_ast": 3.0,
+        "sim_reb": 6.5,
+        "actual_reb": 5.0,
+        "sim_fga": 12.5,
+        "actual_fga": 26.0,
+        "minute_component": -3.0,
+        "rate_component": 22.6
+      },
+      {
+        "date": "2026-02-26",
+        "game": "NOP at UTA",
+        "team": "NOP",
+        "name": "Saddiq Bey",
+        "sim_min": 32.7,
+        "actual_min": 34.0,
+        "sim_pts": 16.6,
+        "actual_pts": 42.0,
+        "sim_ast": 2.8,
+        "actual_ast": 7.0,
+        "sim_reb": 6.7,
+        "actual_reb": 5.0,
+        "sim_fga": 13.4,
+        "actual_fga": 20.0,
+        "minute_component": -0.7,
+        "rate_component": 24.8
+      },
+      {
+        "date": "2026-01-13",
+        "game": "MIN at MIL",
+        "team": "MIL",
+        "name": "Giannis Antetokounmpo",
+        "sim_min": 0.0,
+        "actual_min": 31.0,
+        "sim_pts": 0.0,
+        "actual_pts": 25.0,
+        "sim_ast": 0.0,
+        "actual_ast": 5.0,
+        "sim_reb": 0.0,
+        "actual_reb": 8.0,
+        "sim_fga": 0.0,
+        "actual_fga": 13.0,
+        "minute_component": -0.0,
+        "rate_component": 25.0
+      },
+      {
+        "date": "2026-04-05",
+        "game": "LAL at DAL",
+        "team": "LAL",
+        "name": "Nick Smith Jr.",
+        "sim_min": 26.7,
+        "actual_min": 2.0,
+        "sim_pts": 24.4,
+        "actual_pts": 0.0,
+        "sim_ast": 1.8,
+        "actual_ast": 0.0,
+        "sim_reb": 2.7,
+        "actual_reb": 1.0,
+        "sim_fga": 20.7,
+        "actual_fga": 1.0,
+        "minute_component": 22.5,
+        "rate_component": -1.8
+      },
+      {
+        "date": "2025-11-05",
+        "game": "MIA at DEN",
+        "team": "MIA",
+        "name": "Bam Adebayo",
+        "sim_min": 35.8,
+        "actual_min": 8.0,
+        "sim_pts": 26.2,
+        "actual_pts": 2.0,
+        "sim_ast": 3.6,
+        "actual_ast": 0.0,
+        "sim_reb": 13.8,
+        "actual_reb": 1.0,
+        "sim_fga": 22.3,
+        "actual_fga": 5.0,
+        "minute_component": 20.3,
+        "rate_component": -3.8
+      },
+      {
+        "date": "2026-03-19",
+        "game": "DET at WAS",
+        "team": "DET",
+        "name": "Jalen Duren",
+        "sim_min": 0.1,
+        "actual_min": 25.0,
+        "sim_pts": 0.0,
+        "actual_pts": 24.0,
+        "sim_ast": 0.0,
+        "actual_ast": 0.0,
+        "sim_reb": 0.0,
+        "actual_reb": 11.0,
+        "sim_fga": 0.0,
+        "actual_fga": 15.0,
+        "minute_component": -0.0,
+        "rate_component": 24.0
+      },
+      {
+        "date": "2026-01-23",
+        "game": "NOP at MEM",
+        "team": "MEM",
+        "name": "Jock Landale",
+        "sim_min": 0.2,
+        "actual_min": 32.0,
+        "sim_pts": 0.1,
+        "actual_pts": 24.0,
+        "sim_ast": 0.0,
+        "actual_ast": 2.0,
+        "sim_reb": 0.0,
+        "actual_reb": 11.0,
+        "sim_fga": 0.1,
+        "actual_fga": 18.0,
+        "minute_component": -0.0,
+        "rate_component": 23.9
+      }
+    ]
+  },
+  "plays": {
+    "sides": 168,
+    "play_means": {
+      "fga": 90.11,
+      "fgm": 42.66,
+      "three": 37.6,
+      "rim": 29.74,
+      "mid": 22.77,
+      "other": 0.0,
+      "putback": 3.68,
+      "fta": 23.62,
+      "ftm": 18.14,
+      "tov": 13.98,
+      "oreb": 18.04,
+      "dreb": 34.89,
+      "shooting_foul": 10.56,
+      "personal_foul": 6.18,
+      "loose_ball": 1.38,
+      "offensive_foul": 2.65
+    },
+    "shot_share": {
+      "rim": 0.33,
+      "mid": 0.253,
+      "three": 0.417,
+      "other": 0.0,
+      "putback_per_oreb": 0.204
+    },
+    "expected_mix": {
+      "Transition": 0.186,
+      "Isolation": 0.071,
+      "PRBallHandler": 0.158,
+      "PRRollman": 0.048,
+      "Postup": 0.03,
+      "Spotup": 0.247,
+      "Handoff": 0.051,
+      "Cut": 0.065,
+      "OffScreen": 0.04,
+      "OffRebound": 0.048,
+      "Misc": 0.057,
+      "three_rate": 0.378,
+      "ft_rate": 0.105,
+      "tov_rate": 0.123
+    },
+    "box": {
+      "fga": 89.68,
+      "fta": 23.62,
+      "tov": 14.54,
+      "oreb": 11.36,
+      "dreb": 32.48,
+      "tpa": 37.18,
+      "pf": 19.81
+    },
+    "sim": {
+      "fga": 96.6,
+      "fta": 24.14,
+      "tov": 15.19,
+      "oreb": 11.09,
+      "dreb": 39.04,
+      "tpa": 40.95,
+      "pf": 22.63,
+      "tpm": 14.11,
+      "trips": 103.94
+    },
+    "actual_paint": 51.02,
+    "actual_fast_break": 16.35,
+    "sim_second_chance_points": 10.44,
+    "sim_flagrant_per_game": 0.255,
+    "sim_intentional_per_game": 0.44
+  },
+  "games": [
+    {
+      "date": "2026-01-06",
+      "game": "DAL at SAC",
+      "sim": "128.7\u2013118.6",
+      "actual": "100\u201398",
+      "spread_error": -8.1,
+      "total_error": 49.3,
+      "home_win_p": 0.231,
+      "home_won": 0
+    },
+    {
+      "date": "2026-02-09",
+      "game": "SAC at NOP",
+      "sim": "125.5\u2013132.2",
+      "actual": "94\u2013120",
+      "spread_error": -19.3,
+      "total_error": 43.7,
+      "home_win_p": 0.65,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-07",
+      "game": "UTA at NOP",
+      "sim": "133.4\u2013118.5",
+      "actual": "137\u2013156",
+      "spread_error": -33.9,
+      "total_error": -41.1,
+      "home_win_p": 0.231,
+      "home_won": 1
+    },
+    {
+      "date": "2026-02-06",
+      "game": "MIA at BOS",
+      "sim": "117.3\u2013116.2",
+      "actual": "96\u201398",
+      "spread_error": -3.1,
+      "total_error": 39.4,
+      "home_win_p": 0.431,
+      "home_won": 1
+    },
+    {
+      "date": "2025-10-27",
+      "game": "OKC at DAL",
+      "sim": "123.7\u2013109.2",
+      "actual": "101\u201394",
+      "spread_error": -7.6,
+      "total_error": 37.9,
+      "home_win_p": 0.163,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-01",
+      "game": "ATL at DET",
+      "sim": "117.6\u2013115.7",
+      "actual": "98\u201399",
+      "spread_error": -2.9,
+      "total_error": 36.3,
+      "home_win_p": 0.406,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-25",
+      "game": "TOR at OKC",
+      "sim": "111.0\u2013128.6",
+      "actual": "103\u2013101",
+      "spread_error": 19.5,
+      "total_error": 35.6,
+      "home_win_p": 0.856,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-18",
+      "game": "WAS at SAS",
+      "sim": "109.5\u2013136.8",
+      "actual": "94\u2013119",
+      "spread_error": 2.2,
+      "total_error": 33.3,
+      "home_win_p": 0.956,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-01",
+      "game": "IND at CHI",
+      "sim": "126.1\u2013114.3",
+      "actual": "145\u2013126",
+      "spread_error": 7.1,
+      "total_error": -30.6,
+      "home_win_p": 0.281,
+      "home_won": 0
+    },
+    {
+      "date": "2026-01-02",
+      "game": "DEN at CLE",
+      "sim": "126.2\u2013125.4",
+      "actual": "108\u2013113",
+      "spread_error": -5.8,
+      "total_error": 30.5,
+      "home_win_p": 0.463,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-06",
+      "game": "LAL at NOP",
+      "sim": "124.9\u2013119.4",
+      "actual": "111\u2013103",
+      "spread_error": 2.5,
+      "total_error": 30.3,
+      "home_win_p": 0.338,
+      "home_won": 0
+    },
+    {
+      "date": "2026-03-12",
+      "game": "MIL at MIA",
+      "sim": "117.1\u2013129.8",
+      "actual": "105\u2013112",
+      "spread_error": 5.7,
+      "total_error": 29.8,
+      "home_win_p": 0.769,
+      "home_won": 1
+    },
+    {
+      "date": "2025-12-14",
+      "game": "SAC at MIN",
+      "sim": "120.6\u2013129.0",
+      "actual": "103\u2013117",
+      "spread_error": -5.6,
+      "total_error": 29.6,
+      "home_win_p": 0.662,
+      "home_won": 1
+    },
+    {
+      "date": "2025-10-25",
+      "game": "CHI at ORL",
+      "sim": "116.9\u2013120.5",
+      "actual": "110\u201398",
+      "spread_error": 15.7,
+      "total_error": 29.4,
+      "home_win_p": 0.581,
+      "home_won": 0
+    },
+    {
+      "date": "2026-03-03",
+      "game": "MEM at MIN",
+      "sim": "121.1\u2013135.3",
+      "actual": "110\u2013117",
+      "spread_error": 7.2,
+      "total_error": 29.4,
+      "home_win_p": 0.781,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-04",
+      "game": "WAS at MIA",
+      "sim": "118.9\u2013140.2",
+      "actual": "136\u2013152",
+      "spread_error": 5.3,
+      "total_error": -28.9,
+      "home_win_p": 0.85,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-04",
+      "game": "NOP at MIA",
+      "sim": "121.8\u2013137.8",
+      "actual": "106\u2013125",
+      "spread_error": -3.0,
+      "total_error": 28.6,
+      "home_win_p": 0.781,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-23",
+      "game": "DEN at MIL",
+      "sim": "119.3\u2013109.9",
+      "actual": "102\u2013100",
+      "spread_error": -7.4,
+      "total_error": 27.2,
+      "home_win_p": 0.306,
+      "home_won": 0
+    },
+    {
+      "date": "2026-02-11",
+      "game": "OKC at PHX",
+      "sim": "116.3\u2013102.2",
+      "actual": "136\u2013109",
+      "spread_error": 12.8,
+      "total_error": -26.5,
+      "home_win_p": 0.156,
+      "home_won": 0
+    },
+    {
+      "date": "2026-03-19",
+      "game": "DET at WAS",
+      "sim": "123.6\u2013114.8",
+      "actual": "117\u201395",
+      "spread_error": 13.2,
+      "total_error": 26.3,
+      "home_win_p": 0.312,
+      "home_won": 0
+    },
+    {
+      "date": "2025-10-21",
+      "game": "HOU at OKC",
+      "sim": "107.7\u2013115.8",
+      "actual": "124\u2013125",
+      "spread_error": 7.1,
+      "total_error": -25.5,
+      "home_win_p": 0.713,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-05",
+      "game": "MIA at DEN",
+      "sim": "126.0\u2013133.0",
+      "actual": "112\u2013122",
+      "spread_error": -3.0,
+      "total_error": 25.0,
+      "home_win_p": 0.631,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-08",
+      "game": "DAL at WAS",
+      "sim": "121.8\u2013118.8",
+      "actual": "111\u2013105",
+      "spread_error": 3.0,
+      "total_error": 24.6,
+      "home_win_p": 0.425,
+      "home_won": 0
+    },
+    {
+      "date": "2025-11-24",
+      "game": "CHI at NOP",
+      "sim": "119.9\u2013130.0",
+      "actual": "130\u2013143",
+      "spread_error": -2.8,
+      "total_error": -23.1,
+      "home_win_p": 0.7,
+      "home_won": 1
+    },
+    {
+      "date": "2025-10-26",
+      "game": "IND at MIN",
+      "sim": "120.6\u2013126.3",
+      "actual": "110\u2013114",
+      "spread_error": 1.7,
+      "total_error": 22.9,
+      "home_win_p": 0.631,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-17",
+      "game": "PHI at DEN",
+      "sim": "115.7\u2013127.2",
+      "actual": "96\u2013124",
+      "spread_error": -16.6,
+      "total_error": 22.9,
+      "home_win_p": 0.744,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-28",
+      "game": "CHA at MEM",
+      "sim": "114.8\u2013116.2",
+      "actual": "112\u201397",
+      "spread_error": 16.4,
+      "total_error": 22.1,
+      "home_win_p": 0.531,
+      "home_won": 0
+    },
+    {
+      "date": "2026-02-11",
+      "game": "MEM at DEN",
+      "sim": "124.6\u2013135.3",
+      "actual": "116\u2013122",
+      "spread_error": 4.7,
+      "total_error": 21.8,
+      "home_win_p": 0.706,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-05",
+      "game": "LAL at DAL",
+      "sim": "117.8\u2013123.6",
+      "actual": "128\u2013134",
+      "spread_error": -0.2,
+      "total_error": -20.6,
+      "home_win_p": 0.669,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-07",
+      "game": "HOU at POR",
+      "sim": "123.0\u2013102.5",
+      "actual": "102\u2013103",
+      "spread_error": -21.5,
+      "total_error": 20.5,
+      "home_win_p": 0.125,
+      "home_won": 1
+    },
+    {
+      "date": "2026-02-21",
+      "game": "SAC at SAS",
+      "sim": "108.9\u2013131.7",
+      "actual": "122\u2013139",
+      "spread_error": 5.8,
+      "total_error": -20.3,
+      "home_win_p": 0.925,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-10",
+      "game": "TOR at NYK",
+      "sim": "114.2\u2013112.5",
+      "actual": "95\u2013112",
+      "spread_error": -18.7,
+      "total_error": 19.8,
+      "home_win_p": 0.431,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-26",
+      "game": "ORL at CLE",
+      "sim": "114.3\u2013116.2",
+      "actual": "98\u2013114",
+      "spread_error": -14.1,
+      "total_error": 18.6,
+      "home_win_p": 0.5,
+      "home_won": 1
+    },
+    {
+      "date": "2026-02-19",
+      "game": "BOS at GSW",
+      "sim": "107.8\u2013105.7",
+      "actual": "121\u2013110",
+      "spread_error": 8.9,
+      "total_error": -17.6,
+      "home_win_p": 0.469,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-27",
+      "game": "NYK at ATL",
+      "sim": "117.3\u2013119.3",
+      "actual": "128\u2013125",
+      "spread_error": 5.0,
+      "total_error": -16.3,
+      "home_win_p": 0.512,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-31",
+      "game": "POR at OKC",
+      "sim": "101.1\u2013134.2",
+      "actual": "95\u2013124",
+      "spread_error": 4.1,
+      "total_error": 16.3,
+      "home_win_p": 0.963,
+      "home_won": 1
+    },
+    {
+      "date": "2026-02-22",
+      "game": "BKN at ATL",
+      "sim": "111.5\u2013123.8",
+      "actual": "104\u2013115",
+      "spread_error": 1.3,
+      "total_error": 16.3,
+      "home_win_p": 0.731,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-24",
+      "game": "POR at MIL",
+      "sim": "114.2\u2013119.4",
+      "actual": "115\u2013103",
+      "spread_error": 17.2,
+      "total_error": 15.6,
+      "home_win_p": 0.625,
+      "home_won": 0
+    },
+    {
+      "date": "2026-02-07",
+      "game": "UTA at ORL",
+      "sim": "121.6\u2013130.7",
+      "actual": "117\u2013120",
+      "spread_error": 6.0,
+      "total_error": 15.3,
+      "home_win_p": 0.706,
+      "home_won": 1
+    },
+    {
+      "date": "2025-12-25",
+      "game": "HOU at LAL",
+      "sim": "114.5\u2013115.6",
+      "actual": "119\u201396",
+      "spread_error": 24.0,
+      "total_error": 15.1,
+      "home_win_p": 0.55,
+      "home_won": 0
+    },
+    {
+      "date": "2025-10-27",
+      "game": "ORL at PHI",
+      "sim": "123.0\u2013122.0",
+      "actual": "124\u2013136",
+      "spread_error": -13.0,
+      "total_error": -15.0,
+      "home_win_p": 0.519,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-23",
+      "game": "NOP at MEM",
+      "sim": "121.0\u2013123.9",
+      "actual": "133\u2013127",
+      "spread_error": 8.9,
+      "total_error": -15.0,
+      "home_win_p": 0.569,
+      "home_won": 0
+    },
+    {
+      "date": "2025-10-25",
+      "game": "IND at MEM",
+      "sim": "120.0\u2013125.1",
+      "actual": "103\u2013128",
+      "spread_error": -19.9,
+      "total_error": 14.1,
+      "home_win_p": 0.631,
+      "home_won": 1
+    },
+    {
+      "date": "2025-12-18",
+      "game": "LAL at UTA",
+      "sim": "136.8\u2013127.1",
+      "actual": "143\u2013135",
+      "spread_error": -1.7,
+      "total_error": -14.1,
+      "home_win_p": 0.256,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-18",
+      "game": "ORL at DEN",
+      "sim": "128.5\u2013126.5",
+      "actual": "115\u2013126",
+      "spread_error": -12.9,
+      "total_error": 14.0,
+      "home_win_p": 0.481,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-05",
+      "game": "DAL at ORL",
+      "sim": "115.0\u2013127.8",
+      "actual": "114\u2013115",
+      "spread_error": 11.8,
+      "total_error": 13.8,
+      "home_win_p": 0.713,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-10",
+      "game": "CHI at GSW",
+      "sim": "120.0\u2013120.8",
+      "actual": "130\u2013124",
+      "spread_error": 6.8,
+      "total_error": -13.3,
+      "home_win_p": 0.525,
+      "home_won": 0
+    },
+    {
+      "date": "2026-04-10",
+      "game": "ORL at CHI",
+      "sim": "130.5\u2013112.7",
+      "actual": "127\u2013103",
+      "spread_error": 6.3,
+      "total_error": 13.2,
+      "home_win_p": 0.119,
+      "home_won": 0
+    },
+    {
+      "date": "2025-10-29",
+      "game": "ORL at DET",
+      "sim": "119.2\u2013118.7",
+      "actual": "116\u2013135",
+      "spread_error": -19.5,
+      "total_error": -13.0,
+      "home_win_p": 0.5,
+      "home_won": 1
+    },
+    {
+      "date": "2026-02-26",
+      "game": "NOP at UTA",
+      "sim": "129.4\u2013130.7",
+      "actual": "129\u2013118",
+      "spread_error": 12.3,
+      "total_error": 13.0,
+      "home_win_p": 0.506,
+      "home_won": 0
+    },
+    {
+      "date": "2025-11-21",
+      "game": "MIN at PHX",
+      "sim": "122.7\u2013117.1",
+      "actual": "113\u2013114",
+      "spread_error": -6.7,
+      "total_error": 12.8,
+      "home_win_p": 0.412,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-12",
+      "game": "CHA at NYK",
+      "sim": "118.4\u2013100.4",
+      "actual": "110\u201396",
+      "spread_error": -4.0,
+      "total_error": 12.7,
+      "home_win_p": 0.181,
+      "home_won": 0
+    },
+    {
+      "date": "2026-04-10",
+      "game": "BKN at MIL",
+      "sim": "101.1\u2013119.4",
+      "actual": "108\u2013125",
+      "spread_error": 1.3,
+      "total_error": -12.5,
+      "home_win_p": 0.838,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-18",
+      "game": "UTA at MIN",
+      "sim": "116.2\u2013129.7",
+      "actual": "111\u2013147",
+      "spread_error": -22.5,
+      "total_error": -12.0,
+      "home_win_p": 0.762,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-28",
+      "game": "UTA at PHX",
+      "sim": "110.9\u2013120.8",
+      "actual": "109\u2013134",
+      "spread_error": -15.2,
+      "total_error": -11.3,
+      "home_win_p": 0.725,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-28",
+      "game": "PHX at OKC",
+      "sim": "99.8\u2013131.0",
+      "actual": "119\u2013123",
+      "spread_error": 27.3,
+      "total_error": -11.2,
+      "home_win_p": 0.956,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-13",
+      "game": "ATL at UTA",
+      "sim": "132.0\u2013132.9",
+      "actual": "132\u2013122",
+      "spread_error": 11.0,
+      "total_error": 10.9,
+      "home_win_p": 0.537,
+      "home_won": 0
+    },
+    {
+      "date": "2025-11-23",
+      "game": "MIA at PHI",
+      "sim": "133.1\u2013121.7",
+      "actual": "127\u2013117",
+      "spread_error": -1.4,
+      "total_error": 10.7,
+      "home_win_p": 0.294,
+      "home_won": 0
+    },
+    {
+      "date": "2026-01-16",
+      "game": "WAS at SAC",
+      "sim": "124.7\u2013128.9",
+      "actual": "115\u2013128",
+      "spread_error": -8.8,
+      "total_error": 10.6,
+      "home_win_p": 0.619,
+      "home_won": 1
+    },
+    {
+      "date": "2025-10-29",
+      "game": "POR at UTA",
+      "sim": "124.1\u2013135.3",
+      "actual": "136\u2013134",
+      "spread_error": 13.2,
+      "total_error": -10.5,
+      "home_win_p": 0.738,
+      "home_won": 0
+    },
+    {
+      "date": "2025-10-31",
+      "game": "NOP at LAC",
+      "sim": "115.3\u2013125.1",
+      "actual": "124\u2013126",
+      "spread_error": 7.8,
+      "total_error": -9.5,
+      "home_win_p": 0.675,
+      "home_won": 1
+    },
+    {
+      "date": "2025-10-24",
+      "game": "MIN at LAL",
+      "sim": "126.3\u2013120.9",
+      "actual": "110\u2013128",
+      "spread_error": -23.4,
+      "total_error": 9.2,
+      "home_win_p": 0.406,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-01",
+      "game": "HOU at BOS",
+      "sim": "113.9\u2013107.5",
+      "actual": "128\u2013101",
+      "spread_error": 20.6,
+      "total_error": -7.6,
+      "home_win_p": 0.35,
+      "home_won": 0
+    },
+    {
+      "date": "2026-03-13",
+      "game": "PHX at TOR",
+      "sim": "110.9\u2013118.9",
+      "actual": "115\u2013122",
+      "spread_error": 1.0,
+      "total_error": -7.2,
+      "home_win_p": 0.719,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-12",
+      "game": "WAS at CLE",
+      "sim": "124.9\u2013129.3",
+      "actual": "117\u2013130",
+      "spread_error": -8.6,
+      "total_error": 7.2,
+      "home_win_p": 0.6,
+      "home_won": 1
+    },
+    {
+      "date": "2026-02-24",
+      "game": "OKC at TOR",
+      "sim": "114.7\u2013115.2",
+      "actual": "116\u2013107",
+      "spread_error": 9.4,
+      "total_error": 6.9,
+      "home_win_p": 0.487,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-05",
+      "game": "UTA at NYK",
+      "sim": "119.9\u2013131.7",
+      "actual": "112\u2013146",
+      "spread_error": -22.2,
+      "total_error": -6.4,
+      "home_win_p": 0.738,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-17",
+      "game": "MIL at CLE",
+      "sim": "107.5\u2013122.4",
+      "actual": "106\u2013118",
+      "spread_error": 2.9,
+      "total_error": 6.0,
+      "home_win_p": 0.794,
+      "home_won": 1
+    },
+    {
+      "date": "2026-01-13",
+      "game": "MIN at MIL",
+      "sim": "125.3\u2013114.2",
+      "actual": "139\u2013106",
+      "spread_error": 21.9,
+      "total_error": -5.5,
+      "home_win_p": 0.287,
+      "home_won": 0
+    },
+    {
+      "date": "2025-10-24",
+      "game": "MIL at TOR",
+      "sim": "110.8\u2013123.1",
+      "actual": "122\u2013116",
+      "spread_error": 18.4,
+      "total_error": -4.1,
+      "home_win_p": 0.769,
+      "home_won": 0
+    },
+    {
+      "date": "2026-03-06",
+      "game": "MIA at CHA",
+      "sim": "120.3\u2013123.8",
+      "actual": "128\u2013120",
+      "spread_error": 11.5,
+      "total_error": -4.0,
+      "home_win_p": 0.581,
+      "home_won": 0
+    },
+    {
+      "date": "2026-04-08",
+      "game": "MEM at DEN",
+      "sim": "102.5\u2013148.7",
+      "actual": "119\u2013136",
+      "spread_error": 29.1,
+      "total_error": -3.8,
+      "home_win_p": 1.0,
+      "home_won": 1
+    },
+    {
+      "date": "2025-11-04",
+      "game": "PHX at GSW",
+      "sim": "107.3\u2013121.3",
+      "actual": "107\u2013118",
+      "spread_error": 3.0,
+      "total_error": 3.6,
+      "home_win_p": 0.8,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-05",
+      "game": "TOR at BOS",
+      "sim": "106.0\u2013113.3",
+      "actual": "101\u2013115",
+      "spread_error": -6.7,
+      "total_error": 3.2,
+      "home_win_p": 0.65,
+      "home_won": 1
+    },
+    {
+      "date": "2026-04-05",
+      "game": "CHA at MIN",
+      "sim": "120.0\u2013112.8",
+      "actual": "122\u2013108",
+      "spread_error": 6.7,
+      "total_error": 2.8,
+      "home_win_p": 0.325,
+      "home_won": 0
+    },
+    {
+      "date": "2025-11-12",
+      "game": "DEN at LAC",
+      "sim": "125.4\u2013118.1",
+      "actual": "130\u2013116",
+      "spread_error": 6.7,
+      "total_error": -2.4,
+      "home_win_p": 0.325,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-20",
+      "game": "WAS at MEM",
+      "sim": "116.8\u2013133.2",
+      "actual": "130\u2013122",
+      "spread_error": 24.4,
+      "total_error": -2.0,
+      "home_win_p": 0.781,
+      "home_won": 0
+    },
+    {
+      "date": "2026-02-04",
+      "game": "MEM at SAC",
+      "sim": "132.8\u2013123.2",
+      "actual": "129\u2013125",
+      "spread_error": -5.7,
+      "total_error": 2.0,
+      "home_win_p": 0.275,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-02",
+      "game": "MEM at SAS",
+      "sim": "115.3\u2013128.0",
+      "actual": "119\u2013126",
+      "spread_error": 5.7,
+      "total_error": -1.7,
+      "home_win_p": 0.762,
+      "home_won": 1
+    },
+    {
+      "date": "2025-10-29",
+      "game": "SAC at CHI",
+      "sim": "112.5\u2013128.1",
+      "actual": "113\u2013126",
+      "spread_error": 2.6,
+      "total_error": 1.6,
+      "home_win_p": 0.831,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-29",
+      "game": "BOS at CHA",
+      "sim": "106.7\u2013104.8",
+      "actual": "114\u201399",
+      "spread_error": 13.1,
+      "total_error": -1.5,
+      "home_win_p": 0.412,
+      "home_won": 0
+    },
+    {
+      "date": "2026-02-24",
+      "game": "DAL at BKN",
+      "sim": "119.0\u2013116.8",
+      "actual": "123\u2013114",
+      "spread_error": 6.8,
+      "total_error": -1.3,
+      "home_win_p": 0.469,
+      "home_won": 0
+    },
+    {
+      "date": "2025-12-23",
+      "game": "WAS at CHA",
+      "sim": "113.4\u2013122.7",
+      "actual": "109\u2013126",
+      "spread_error": -7.7,
+      "total_error": 1.1,
+      "home_win_p": 0.694,
+      "home_won": 1
+    },
+    {
+      "date": "2026-03-18",
+      "game": "GSW at BOS",
+      "sim": "105.4\u2013112.9",
+      "actual": "99\u2013120",
+      "spread_error": -13.4,
+      "total_error": -0.7,
+      "home_win_p": 0.681,
+      "home_won": 1
+    }
+  ]
+}

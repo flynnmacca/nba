@@ -1,0 +1,98 @@
+{
+  "adapt_84": {
+    "games": 84,
+    "pts": 1.46,
+    "fg": -0.009,
+    "dreb": 1.51,
+    "fga": 2.57,
+    "margin": 14.92,
+    "act_margin": 14.96,
+    "winner": 0.798,
+    "brier": 0.156,
+    "total": 2.92,
+    "r32": -3.04,
+    "u12": 5.99,
+    "points": {
+      "pace_points": 2.77,
+      "efficiency_points": -1.31,
+      "two_from_extra_fga": 2.54,
+      "two_from_fg_pct": -1.46,
+      "extra_made_threes": -0.14,
+      "extra_made_free_throws": 0.67,
+      "points_outside_the_box": -0.01,
+      "sides": 168
+    }
+  },
+  "adapt_stod": {
+    "games": 76,
+    "pts": 3.35,
+    "fg": 0.009,
+    "dreb": 0.66,
+    "fga": 1.14,
+    "margin": 16.81,
+    "act_margin": 16.33,
+    "winner": 0.579,
+    "brier": 0.236,
+    "total": 6.69,
+    "r32": -4.08,
+    "u12": 6.79,
+    "points": {
+      "pace_points": 0.61,
+      "efficiency_points": 2.73,
+      "two_from_extra_fga": 1.21,
+      "two_from_fg_pct": 1.8,
+      "extra_made_threes": -0.1,
+      "extra_made_free_throws": 0.65,
+      "points_outside_the_box": 0.0,
+      "sides": 152
+    }
+  },
+  "form_84": {
+    "games": 84,
+    "pts": 1.75,
+    "fg": -0.006,
+    "dreb": 1.24,
+    "fga": 2.36,
+    "margin": 14.68,
+    "act_margin": 14.96,
+    "winner": 0.81,
+    "brier": 0.144,
+    "total": 3.52,
+    "r32": -3.06,
+    "u12": 6.06,
+    "points": {
+      "pace_points": 2.73,
+      "efficiency_points": -0.97,
+      "two_from_extra_fga": 2.35,
+      "two_from_fg_pct": -0.99,
+      "extra_made_threes": -0.28,
+      "extra_made_free_throws": 0.82,
+      "points_outside_the_box": -0.01,
+      "sides": 168
+    }
+  },
+  "form_stod": {
+    "games": 76,
+    "pts": 4.46,
+    "fg": 0.013,
+    "dreb": 0.51,
+    "fga": 1.28,
+    "margin": 15.2,
+    "act_margin": 16.33,
+    "winner": 0.618,
+    "brier": 0.22,
+    "total": 8.91,
+    "r32": -6.2,
+    "u12": 7.8,
+    "points": {
+      "pace_points": 0.65,
+      "efficiency_points": 3.81,
+      "two_from_extra_fga": 1.31,
+      "two_from_fg_pct": 2.48,
+      "extra_made_threes": -0.16,
+      "extra_made_free_throws": 1.02,
+      "points_outside_the_box": -0.0,
+      "sides": 152
+    }
+  }
+}
